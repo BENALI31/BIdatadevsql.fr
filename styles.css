@@ -117,10 +117,11 @@ p {
 }
 
 .profile-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
     object-fit: cover;
+    object-position: center 10%; 
     border: 3px solid var(--primary-light);
     box-shadow: var(--shadow-sm);
     margin: 0 auto 1rem;
