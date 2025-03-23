@@ -1,15 +1,16 @@
-# Portfolio de Mohammed Benali - Développeur BI/DATA
+Bienvenue sur mon portfolio ! 👋
+Portfolio de Mohammed Benali – Data Engineer | Développeur BI & SQL 🚀
 
-Bienvenue sur mon portfolio ! Mohammed benali Developpeur DATA / BI 👋
+Je suis Mohammed Benali, Développeur BI & Data Engineer, spécialisé dans l’ETL, le reporting, la modélisation et l’optimisation des bases de données.
 
+💡 Objectif : Transformer les données en valeur ajoutée en concevant des solutions scalables, performantes et automatisées.
 
+📌 Expériences Professionnelles – Mes missions et réalisations en tant que Data Engineer & Développeur BI.
+📌 Certifications – Les certifications attestant de mon expertise en SQL, BI et Data Engineering.
+📌 Formations – Mon parcours académique et mes spécialisations.
+📌 Portfolio – Une sélection de projets illustrant mes compétences en ETL, SQL, reporting et optimisation de données.
+📌 Contact – Restons en contact ! Retrouvez-moi sur LinkedIn et GitHub.
 
-Ce portfolio présente mes compétences, expériences professionnelles, certifications, formations, et bien plus encore. Explorez les différentes sections pour en savoir plus sur mon parcours et mes réalisations.
+🔍 Compétences clés : SQL | ETL | Talend | Power BI | SSIS | SSRS | PostgreSQL | Oracle | Tuning SQL | Automatisation & Data Pipeline
 
-
-
-- **[Expériences Professionnelles](#expériences-professionnelles):** Découvrez mes missions et réalisations en tant que développeur BI/DATA.
-- **[Certifications](#certifications):** Consultez les certifications que j'ai obtenues.
-- **[Formations](#formations):** Explorez mes formations et parcours académiques.
-- **[Portfolio](#portfolio):** Découvrez certains de mes projets marquants.
-- **[Contact](#contact):** Connectons-nous ! Retrouvez-moi sur LinkedIn et GitHub
+🚀 N’hésitez pas à explorer et à me contacter pour toute collaboration ou opportunité !
