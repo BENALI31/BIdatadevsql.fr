@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://benali31.github.io/BIdatadevsql.fr/sitemap.xml
+Sitemap: https://a426153.sitemaphosting7.com/4522145/sitemap_4522145.xml
