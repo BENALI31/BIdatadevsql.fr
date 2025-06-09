@@ -5,22 +5,27 @@
     <meta name="google-site-verification" content="dcfEMJT5eHB40_mFZlTkz7Nc9cEdZ2mS3k9fzVntY_Y" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Réalisations - Mohammed BENALI | Expert Data Engineer</title>
-
-    <!-- Meta Description -->
-    <meta name="description"
-        content="Portfolio des réalisations en Data Engineering et Business Intelligence de Mohammed BENALI. Projets ETL, SQL, Power BI et plus.">
-
+    <title>Réalisations - Mohammed BENALI | Expert Data Engineer</title>    <!-- Meta Description -->
+    <meta name="description" content="Portfolio des réalisations en Data Engineering et Business Intelligence de Mohammed BENALI. Projets ETL, SQL, Power BI et plus.">
+    
     <!-- Balises Open Graph -->
     <meta property="og:title" content="Réalisations - Mohammed BENALI | Expert Data Engineer">
     <meta property="og:description" content="Découvrez mes projets en data engineering et business intelligence">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://benali31.github.io/BIdatadevsql.fr/realisations.html">
-
-    <!-- Styles -->
-    <link rel="stylesheet" href="styles.css">
+    <meta property="og:image" content="https://benali31.github.io/BIdatadevsql.fr/images/ETL-BI-BENALI.png">
+    <meta property="og:site_name" content="Mohammed BENALI - Data Engineer">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Réalisations - Mohammed BENALI | Expert Data Engineer">
+    <meta name="twitter:description" content="Portfolio des réalisations en Data Engineering et Business Intelligence">
+    <meta name="twitter:image" content="https://benali31.github.io/BIdatadevsql.fr/images/ETL-BI-BENALI.png">
+    
+    <!-- Styles --><link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
+    <script src="scripts.js" defer></script>
 </head>
 
 <body>
@@ -56,166 +61,319 @@
         <div class="container">
             <section id="realisations">
                 <h2 class="section-title">Mes Réalisations</h2>
-                <p class="section-subtitle">Découvrez mes projets en data engineering et business intelligence</p>
-                <div class="portfolio-grid">
-                    <div class="portfolio-item">
-                        <a href="#lightbox" class="lightbox-trigger">
-                            <div class="portfolio-media">
-                                <img src="images/SQL_server_Presenetation_Global.gif"
-                                    alt="SQL Server - Présentation globale" class="portfolio-gif">
+                <p class="section-subtitle">Découvrez mes projets en data engineering et business intelligence</p>                <div class="portfolio-grid">
+                    <!-- Projet 1 : Intégration SSIS -->
+                    <article class="portfolio-item">
+                        <div class="portfolio-media">
+                            <div class="video-thumbnail">
+                                <img src="https://img.youtube.com/vi/iRFMqtr8W6E/maxresdefault.jpg" 
+                                     alt="Démonstration de l'intégration de données avec SSIS"
+                                     loading="lazy">
+                                <a href="#video-1" class="video-trigger" aria-label="Lancer la vidéo sur l'intégration SSIS">
+                                    <span class="play-button"><i class="fas fa-play" aria-hidden="true"></i></span>
+                                </a>
                             </div>
-                            <div class="portfolio-content">
-                                <h3><i class="fas fa-database"></i> SQL Server - Architecture globale</h3>
-                                <p>Conception et implémentation d'une architecture SQL Server optimisée pour les
-                                    environnements data warehouse.</p>
-                                <div class="tech-tags">
-                                    <span>SQL Server</span>
-                                    <span>T-SQL</span>
-                                    <span>Data Modeling</span>
-                                </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3><i class="fas fa-database" aria-hidden="true"></i> Intégration de données avec SSIS</h3>
+                            <p>Chargement de fichiers CSV vers une base de données SQL Server en utilisant SQL Server Integration Services (SSIS). Cette solution automatise l'import de données.</p>
+                            <div class="tech-tags" aria-label="Technologies utilisées">
+                                <span>SSIS</span>
+                                <span>SQL</span>
+                                <span>ETL</span>
                             </div>
-                        </a>
+                        </div>
+                    </article>
+
+                    <!-- Lightbox Projet 1 -->
+                    <div class="video-lightbox" id="video-1" role="dialog" aria-label="Vidéo de démonstration SSIS">
+                        <div class="video-container">
+                            <iframe title="Démonstration d'intégration SSIS"
+                                id="player1"
+                                src="https://www.youtube.com/embed/iRFMqtr8W6E?enablejsapi=1&origin=https://benali31.github.io"
+                                width="100%" 
+                                height="100%"
+                                loading="lazy"
+                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <a href="#" class="lightbox-close" aria-label="Fermer la vidéo">&times;</a>
                     </div>
 
-                    <div class="portfolio-item">
-                        <a href="#lightbox" class="lightbox-trigger">
-                            <div class="portfolio-media">
-                                <img src="images/Comment_résoudre_l'erreur_de connexion_SQL_Server.gif"
-                                    alt="SQL Server - Présentation globale" class="portfolio-gif">
+                    <!-- Projet 2 : Solution SSIS -->
+                    <article class="portfolio-item">
+                        <div class="portfolio-media">
+                            <div class="video-thumbnail">
+                                <img src="https://img.youtube.com/vi/X4KEiMevP6Y/maxresdefault.jpg" 
+                                     alt="Démonstration de création d'une solution SSIS"
+                                     loading="lazy">
+                                <a href="#video-2" class="video-trigger" aria-label="Lancer la vidéo sur la création de solution SSIS">
+                                    <span class="play-button"><i class="fas fa-play" aria-hidden="true"></i></span>
+                                </a>
                             </div>
-                            <div class="portfolio-content">
-                                <h3><i class="fas fa-database"></i> Comment résoudre l'erreur de connexion SQL Server
-                                </h3>
-                                <p>A network-related or instance-specific error occurred while establishing a connection
-                                    to SQL Server. The server was not found or was not accessible. Verify that the
-                                    instance name is correct and that SQL Server is configured to allow remote
-                                    connections. (provider: Named Pipes Provider, error: 40 - Could not open a
-                                    connection to SQL Server) (Microsoft SQL Server, Error: 2)</p>
-                                <div class="tech-tags">
-                                    <span>SQL Server</span>
-                                    <span>T-SQL</span>
-                                </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3><i class="fas fa-database" aria-hidden="true"></i> Création de solution SSIS</h3>
+                            <p>Développement d'une solution complète d'intégration de données avec SSIS</p>
+                            <div class="tech-tags" aria-label="Technologies utilisées">
+                                <span>SSIS</span>
+                                <span>SQL</span>
+                                <span>ETL</span>
                             </div>
-                        </a>
+                        </div>
+                    </article>
+
+                    <!-- Lightbox Projet 2 -->
+                    <div class="video-lightbox" id="video-2" role="dialog" aria-label="Vidéo de démonstration solution SSIS">
+                        <div class="video-container">
+                            <iframe title="Démonstration de solution SSIS"
+                                id="player2"
+                                src="https://www.youtube.com/embed/X4KEiMevP6Y?enablejsapi=1&origin=https://benali31.github.io"
+                                width="100%" 
+                                height="100%"
+                                loading="lazy"
+                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <a href="#" class="lightbox-close" aria-label="Fermer la vidéo">&times;</a>                    </div>
+
+                    <!-- Projet 3 : Power BI -->
+                    <article class="portfolio-item">
+                        <div class="portfolio-media">
+                            <div class="video-thumbnail">
+                                <img src="https://img.youtube.com/vi/wDzl96TE3Cg/maxresdefault.jpg" 
+                                     alt="Démonstration de tableau de bord Power BI"
+                                     loading="lazy">
+                                <a href="#video-3" class="video-trigger" aria-label="Lancer la vidéo sur le tableau de bord Power BI">
+                                    <span class="play-button"><i class="fas fa-play" aria-hidden="true"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3><i class="fas fa-chart-line" aria-hidden="true"></i> Tableau de bord Power BI</h3>
+                            <p>Création de tableaux de bord interactifs et visuellement attractifs pour l'analyse commerciale. Visualisations dynamiques et insights en temps réel pour une prise de décision éclairée.</p>
+                            <div class="tech-tags" aria-label="Technologies utilisées">
+                                <span>Power BI</span>
+                                <span>DAX</span>
+                                <span>Data Viz</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Lightbox Projet 3 -->
+                    <div class="video-lightbox" id="video-3" role="dialog" aria-label="Vidéo de démonstration Power BI">
+                        <div class="video-container">
+                            <iframe title="Démonstration de tableau de bord Power BI"
+                                id="player3"
+                                src="https://www.youtube.com/embed/wDzl96TE3Cg?enablejsapi=1&origin=https://benali31.github.io"
+                                width="100%" 
+                                height="100%"
+                                loading="lazy"
+                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>                        <a href="#" class="lightbox-close" aria-label="Fermer la vidéo">&times;</a>
                     </div>
 
-                    <div class="portfolio-item">
-                        <a href="#lightbox" class="lightbox-trigger">
-                            <div class="portfolio-media">
-                                <img src="images/supprimer_des_colonnes_Power_bi.gif"
-                                    alt="Power BI - Suppression de colonnes" class="portfolio-gif">
+                    <!-- Projet 4 : Git Repository -->
+                    <article class="portfolio-item">
+                        <div class="portfolio-media">
+                            <div class="video-thumbnail">
+                                <img src="https://img.youtube.com/vi/eYDroxcdQeo/maxresdefault.jpg" 
+                                     alt="Présentation du repository Git pour projets Data"
+                                     loading="lazy">
+                                <a href="#video-4" class="video-trigger" aria-label="Lancer la vidéo sur le repository Git">
+                                    <span class="play-button"><i class="fas fa-play" aria-hidden="true"></i></span>
+                                </a>
                             </div>
-                            <div class="portfolio-content">
-                                <h3><i class="fas fa-chart-bar"></i> Power BI - Optimisation de modèles</h3>
-                                <p>Techniques avancées pour optimiser les modèles de données dans Power BI et améliorer
-                                    les
-                                    performances.</p>
-                                <div class="tech-tags">
-                                    <span>Power BI</span>
-                                    <span>DAX</span>
-                                    <span>Data Modeling</span>
-                                </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3><i class="fab fa-github" aria-hidden="true"></i> Page Git pour Data et mes projets</h3>
+                            <p>Repository Git centralisant mes projets Data, scripts et solutions. Une collection organisée d'outils et de codes sources pour l'analyse de données, l'ETL et le reporting.</p>
+                            <div class="tech-tags" aria-label="Technologies utilisées">
+                                <span>Git</span>
+                                <span>SQL</span>
+                                <span>Excel</span>
+                                <span>VBA</span>
+                                <span>Access</span>
                             </div>
-                        </a>
+                        </div>
+                    </article>
+
+                    <!-- Lightbox Projet 4 -->
+                    <div class="video-lightbox" id="video-4" role="dialog" aria-label="Vidéo de présentation Git Repository">
+                        <div class="video-container">
+                            <iframe title="Présentation du repository Git pour projets Data"
+                                id="player4"
+                                src="https://www.youtube.com/embed/eYDroxcdQeo?enablejsapi=1&origin=https://benali31.github.io"
+                                width="100%" 
+                                height="100%"
+                                loading="lazy"
+                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>                        <a href="#" class="lightbox-close" aria-label="Fermer la vidéo">&times;</a>
                     </div>
 
-                    <div class="portfolio-item">
-                        <a href="#lightbox" class="lightbox-trigger">
-                            <div class="portfolio-media">
-                                <img src="images/Git_Portfolio_Data_Analyste_Benali.gif" alt="Git pour Data Analysts"
-                                    class="portfolio-gif">
+                    <!-- Projet 5 : Power BI - Fractionner colonnes -->
+                    <article class="portfolio-item">
+                        <div class="portfolio-media">
+                            <div class="video-thumbnail">
+                                <img src="https://img.youtube.com/vi/nXe2IMP6kVk/maxresdefault.jpg" 
+                                     alt="Tutoriel sur le fractionnement de colonnes dans Power BI"
+                                     loading="lazy">
+                                <a href="#video-5" class="video-trigger" aria-label="Lancer la vidéo sur le fractionnement de colonnes">
+                                    <span class="play-button"><i class="fas fa-play" aria-hidden="true"></i></span>
+                                </a>
                             </div>
-                            <div class="portfolio-content">
-                                <h3><i class="fab fa-git-alt"></i> Git pour projets Data</h3>
-                                <p>Méthodologie et bonnes pratiques pour la gestion de version des projets data avec
-                                    Git.
-                                </p>
-                                <div class="tech-tags">
-                                    <span>Git</span>
-                                    <span>GitHub</span>
-                                    <span>Version Control</span>
-                                </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3><i class="fas fa-table" aria-hidden="true"></i> Fractionner des colonnes Power BI</h3>
+                            <p>Transformation et nettoyage de données dans Power Query. Guide pratique pour optimiser la structure de vos données avec les outils de fractionnement de colonnes.</p>
+                            <div class="tech-tags" aria-label="Technologies utilisées">
+                                <span>Power BI</span>
+                                <span>Power Query</span>
+                                <span>M Language</span>
                             </div>
-                        </a>
+                        </div>
+                    </article>
+
+                    <!-- Lightbox Projet 5 -->
+                    <div class="video-lightbox" id="video-5" role="dialog" aria-label="Vidéo sur le fractionnement de colonnes">
+                        <div class="video-container">
+                            <iframe title="Tutoriel fractionnement de colonnes Power BI"
+                                id="player5"
+                                src="https://www.youtube.com/embed/nXe2IMP6kVk?enablejsapi=1&origin=https://benali31.github.io"
+                                width="100%" 
+                                height="100%"
+                                loading="lazy"
+                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <a href="#" class="lightbox-close" aria-label="Fermer la vidéo">&times;</a>
                     </div>
 
-                    <!-- Votre élément portfolio -->
-                    <div class="portfolio-item">
-                        <a href="#lightbox" class="lightbox-trigger">
-                            <div class="portfolio-media">
-                                <img src="images/Fractionner_des_colonnes_Power_bi.gif"
-                                    alt="Power BI - Fractionnement de colonnes" class="portfolio-gif">
+                    <!-- Projet 6 : SQL Server Connexion -->
+                    <article class="portfolio-item">
+                        <div class="portfolio-media">
+                            <div class="video-thumbnail">
+                                <img src="https://img.youtube.com/vi/7eEQ3l_nexE/maxresdefault.jpg" 
+                                     alt="Résolution des erreurs de connexion SQL Server"
+                                     loading="lazy">
+                                <a href="#video-6" class="video-trigger" aria-label="Lancer la vidéo sur la résolution d'erreurs SQL Server">
+                                    <span class="play-button"><i class="fas fa-play" aria-hidden="true"></i></span>
+                                </a>
                             </div>
-                            <div class="portfolio-content">
-                                <h3><i class="fas fa-table"></i> Power BI - Transformation de données</h3>
-                                <p>Transformation et nettoyage de données dans Power Query.</p>
-                                <div class="tech-tags">
-                                    <span>Power BI</span>
-                                    <span>Power Query</span>
-                                    <span>M Language</span>
-                                </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3><i class="fas fa-exclamation-triangle" aria-hidden="true"></i> Résolution erreur connexion SQL Server</h3>
+                            <p>Résoudre les erreurs courantes de connexion à SQL Server, notamment les problèmes de configuration réseau et d'authentification.</p>
+                            <div class="tech-tags" aria-label="Technologies utilisées">
+                                <span>SQL Server</span>
+                                <span>Troubleshooting</span>
+                                <span>Networking</span>
                             </div>
-                        </a>
+                        </div>
+                    </article>
+
+                    <!-- Lightbox Projet 6 -->
+                    <div class="video-lightbox" id="video-6" role="dialog" aria-label="Vidéo sur la résolution d'erreurs SQL Server">
+                        <div class="video-container">
+                            <iframe title="Guide de dépannage SQL Server"
+                                id="player6"
+                                src="https://www.youtube.com/embed/7eEQ3l_nexE?enablejsapi=1&origin=https://benali31.github.io"
+                                width="100%" 
+                                height="100%"
+                                loading="lazy"
+                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <a href="#" class="lightbox-close" aria-label="Fermer la vidéo">&times;</a>
                     </div>
 
-                    <div class="portfolio-item">
-                        <a href="#lightbox" class="lightbox-trigger">
-                            <div class="portfolio-media">
-                                <img src="images/Tableau_de bord_Power_BI.gif" alt="Tableau de bord Power BI"
-                                    class="portfolio-gif">
+                    <!-- Projet 7 : SQL Server Interface -->
+                    <article class="portfolio-item">
+                        <div class="portfolio-media">
+                            <div class="video-thumbnail">
+                                <img src="https://img.youtube.com/vi/4LCaiV5hpmQ/maxresdefault.jpg" 
+                                     alt="Présentation de l'interface SQL Server"
+                                     loading="lazy">
+                                <a href="#video-7" class="video-trigger" aria-label="Lancer la vidéo sur l'interface SQL Server">
+                                    <span class="play-button"><i class="fas fa-play" aria-hidden="true"></i></span>
+                                </a>
                             </div>
-                            <div class="portfolio-content">
-                                <h3><i class="fas fa-chart-pie"></i> Tableaux de bord Power BI</h3>
-                                <p>Création de tableaux de bord interactifs et visuellement attractifs pour l'analyse
-                                    commerciale.</p>
-                                <div class="tech-tags">
-                                    <span>Power BI</span>
-                                    <span>Data Visualization</span>
-                                    <span>Business Analytics</span>
-                                </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3><i class="fas fa-desktop" aria-hidden="true"></i> SQL Server - Interface générale</h3>
+                            <p>Vue d'ensemble complète de l'interface SQL Server Management Studio, exploration des fonctionnalités principales et des outils essentiels.</p>
+                            <div class="tech-tags" aria-label="Technologies utilisées">
+                                <span>SQL Server</span>
+                                <span>SSMS</span>
+                                <span>Database</span>
                             </div>
-                        </a>
+                        </div>
+                    </article>
+
+                    <!-- Lightbox Projet 7 -->
+                    <div class="video-lightbox" id="video-7" role="dialog" aria-label="Vidéo sur l'interface SQL Server">
+                        <div class="video-container">
+                            <iframe title="Présentation de l'interface SQL Server"
+                                id="player7"
+                                src="https://www.youtube.com/embed/4LCaiV5hpmQ?enablejsapi=1&origin=https://benali31.github.io"
+                                width="100%" 
+                                height="100%"
+                                loading="lazy"
+                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <a href="#" class="lightbox-close" aria-label="Fermer la vidéo">&times;</a>
                     </div>
-                    <div class="portfolio-item">
-                        <a href="#lightbox" class="lightbox-trigger">
-                            <div class="portfolio-media">
-                                <video controls class="portfolio-gif">
-                                    <source src="https://drive.google.com/file/d/1AWPCAPzgOeNs8uY-wDr5SJl3B8iUnXOy/view?usp=drive_link" type="video/mp4">
-                                    Votre navigateur ne supporte pas la lecture de vidéos.
-                                </video>
+
+                    <!-- Projet 8 : Power BI Colonnes -->
+                    <article class="portfolio-item">
+                        <div class="portfolio-media">
+                            <div class="video-thumbnail">
+                                <img src="https://img.youtube.com/vi/BA0w7G9I3FQ/maxresdefault.jpg" 
+                                     alt="Tutoriel suppression de colonnes dans Power BI"
+                                     loading="lazy">
+                                <a href="#video-8" class="video-trigger" aria-label="Lancer la vidéo sur la suppression de colonnes">
+                                    <span class="play-button"><i class="fas fa-play" aria-hidden="true"></i></span>
+                                </a>
                             </div>
-                            <div class="portfolio-content">
-                                <h3><i class="fas fa-database"></i> Intégration de données avec SSIS</h3>
-                                <p>Chargement de CSV avec SSIS vers une base de données SQL.</p>
-                                <div class="tech-tags">
-                                    <span>SSIS</span>
-                                    <span>SQL</span>
-                                    <span>ETL</span>
-                                </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3><i class="fas fa-columns" aria-hidden="true"></i> Supprimer des colonnes Power BI</h3>
+                            <p>Guide pratique pour optimiser vos jeux de données en supprimant les colonnes inutiles dans Power BI, améliorant ainsi les performances et la clarté de vos rapports.</p>
+                            <div class="tech-tags" aria-label="Technologies utilisées">
+                                <span>Power BI</span>
+                                <span>DAX</span>
+                                <span>Data Modeling</span>
                             </div>
-                        </a>
+                        </div>
+                    </article>
+
+                    <!-- Lightbox Projet 8 -->
+                    <div class="video-lightbox" id="video-8" role="dialog" aria-label="Vidéo sur la suppression de colonnes">
+                        <div class="video-container">
+                            <iframe title="Tutoriel suppression de colonnes Power BI"
+                                id="player8"
+                                src="https://www.youtube.com/embed/BA0w7G9I3FQ?enablejsapi=1&origin=https://benali31.github.io"
+                                width="100%" 
+                                height="100%"
+                                loading="lazy"
+                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <a href="#" class="lightbox-close" aria-label="Fermer la vidéo">&times;</a>
                     </div>
-                    <div class="portfolio-item">
-                        <a href="#lightbox" class="lightbox-trigger">
-                            <div class="portfolio-media">
-                                <video controls class="portfolio-gif">
-                                    <source src="https://drive.google.com/file/d/1iBnd34B0fdD4jxbjN5GcgGQHxojrx7ee/view?usp=sharing" type="video/mp4">
-                                    Votre navigateur ne supporte pas la lecture de vidéos.
-                                </video>
-                            </div>
-                            <div class="portfolio-content">
-                                <h3><i class="fas fa-database"></i> creation de solution SSIS</h3>
-                                <p>creation de solution SSIS.</p>
-                                <div class="tech-tags">
-                                    <span>SSIS</span>
-                                    <span>SQL</span>
-                                    <span>ETL</span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </section>
+            </div>
+        </section>
         </div>
     </main>
     <div id="copyright">
@@ -227,7 +385,6 @@
             </li>
         </ul>
     </div>
-
 </body>
 
 </html>
