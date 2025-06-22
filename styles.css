@@ -232,7 +232,12 @@ p {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    flex-wrap: wrap;
     margin-top: 2rem;
+}
+
+.hero-cta .primary-button i {
+    margin-right: 8px;
 }
 
 /* Buttons */
